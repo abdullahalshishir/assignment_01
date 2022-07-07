@@ -1,0 +1,277 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+
+
+}
+
+.first-div {
+    text-align: center;
+    color: white;
+}
+
+.anchor-button {
+    text-decoration: none;
+    background: red;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0%;
+}
+
+.background-img {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+
+.second-div {
+    color: black;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+
+}
+
+
+
+.box button {
+    background-color: rgb(248, 230, 230);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#border-red {
+    border: 2px solid red;
+}
+
+.hr {
+    text-align: center;
+}
+
+.anchor-second {
+    text-decoration: none;
+    background: red;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.second-anchor {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+
+
+
+.section-title h1 {
+    text-align: center;
+    color: #121212;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin-top: 100px;
+}
+
+.section-title p {
+    color: #707070;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.package-description {
+    display: flex;
+    margin: 50px 180px 30px;
+    line-height: 24px;
+}
+
+.package-description-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.package-descript-text {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+    width: 360px;
+    height: 350px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.icon1,
+.icon-img1 {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+.icon-img1,
+.icon-img2,
+.icon-img3 {
+    margin-bottom: 25px;
+}
+
+.icon2,
+.icon-img2 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.icon3,
+.icon-img3 {
+    background-color: #fff4d6;
+}
+
+/* -----Gallery style Srart------ */
+
+.gallery-container {
+    background-color: #fef4f4;
+}
+
+.highlight {
+    color: #ff5959;
+}
+
+.section-title h2 {
+    text-align: center;
+    font-size: 45px;
+    margin: 20px auto;
+    padding-top: 30px;
+}
+
+.section-title p {
+    padding: 15px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    padding-bottom: 40px;
+}
+
+.gallery img {
+    width: 310px;
+    height: 201px;
+    cursor: zoom-in;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/*   ------Gallery style End-----*/
+
+/* -----Get Updates style start----- */
+.section-title {
+    margin-top: 80px;
+}
+
+.input-from {
+    text-align: center;
+    background-color: #fff4d6;
+    border-radius: 2px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 200px;
+}
+
+.form-control {
+    background-color: #d9d9d9;
+    border-radius: 5px 0px 0px 5px;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 40px;
+    margin-top: 70px;
+    height: 48px;
+    width: 280px;
+}
+
+.btn-main {
+    background-color: #ff5959;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    font-size: 16px;
+    width: 157px;
+    height: 48px;
+    border: none;
+    outline: none;
+    margin-left: -5px;
+}
+
+/*-----Get Update style End------ */
+/*------  Footer area Start-------*/
+.footer-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer h2 {
+    font-family: "Lobster";
+    font-style: italic;
+    font-weight: 400;
+    color: #ff5959;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}
+
+.footer p {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    color: #d9dbe1;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* ----Footer area End ------*/
